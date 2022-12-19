@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
-// import logo from '../../../images/logo.svg';
-// // import logo from '../../../images/logo.svg';
+import logo from '../../../images/logo.svg';
 import './Header.scss';
 
 const Header = () => {
   return (
     <header>
-      {/* <img src={logo} /> */}
+      <img src={logo} alt="Archi studio image" />
 
       <nav>
         <ul>
